@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: kubecon-demo
+  labels:
+    k8s-app: kubecon-demo
+spec:
+  selector:
+    matchLabels:
+      name: kubecon-demo
+  template:
+    metadata:
+      labels:
+        name: kubecon-demo
+    spec:
+      containers:
+      - name: kubecon-demo
+        image: saiyam911/kubecondemo:v2
