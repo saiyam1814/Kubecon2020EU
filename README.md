@@ -9,3 +9,5 @@ Get Node Token - /var/lib/rancher/k3s/server/node-token <br>
 Agent Install - curl -sfL https://get.k3s.io | K3S_URL=https://myserver:6443 K3S_TOKEN=mynodetoken sh - <br>
 
 Deploy all Yaml files 
+
+[Talk Link](https://youtu.be/2Eqg-oKRIR8)

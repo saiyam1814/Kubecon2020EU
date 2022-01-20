@@ -13,6 +13,7 @@ spec:
       labels:
         name: kubecon-demo
     spec:
+      hostNetwork: true
       containers:
       - name: kubecon-demo
         image: saiyam911/kubecondemo:v2
